@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moody</title>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  </head>
+  <body>
+    <nav class="navbar" id="home">
+      <div class="navbar__container">
+        <a href="#home"
+          ><img src="./images/logo.svg" alt="logo" class="navbar__logo"
+        /></a>
+        <div class="navbar__menu">
+          <button class="navbar__menu">
+            <img
+              class="navbar__menu_icon"
+              src="./images/navbar__hamburger.svg"
+              alt="menu"
+            />
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <img
+        class="hero__image"
+        src="./images/hero__image.svg"
+        alt="hero image"
+      />
+      <div class="hero__container">
+        <div class="hero__container_left">
+          <h1 class="hero__title">
+            Your mental health kit in the form of therapy talks
+            <span class="underline">sessions</span>
+          </h1>
+        </div>
+        <div class="hero__container_right">
+          <ul class="hero__list">
+            <li class="hero__paragraph">
+              Moody is a new platform where users can listen to podcasts about mental health.
+            </li>
+            <li class="hero__paragraph">
+              The content is available for those seeking guidance from professionals specializing in mental health treatment.
+            </li>
+            <li class="hero__paragraph">
+              Moody offers live sessions with doctors where users can ask questions and get advice from people with similar health issues.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider__container">
+      <img class="divider" src="./images/divider.svg" alt="divider" />
+    </div>
+
+    <section class="moods" id="moods">
+      <div class="moods__container">
+        <h2 class="moods__title">
+          Share your mood with us and tell us how you feel today
+        </h2>
+        <div class="moods__main">
+          <div class="moods__feels">
+            <button class="moods__button moods__button_triste">
+              SAD 😞
+            </button>
+            <button class="moods__button moods__button_estupendo">
+              GREAT 🤕
+            </button>
+            <button class="moods__button moods__button_okay">OKAY 🙂</button>
+            <button class="moods__button moods__button_preocupado">
+              WORRIED 😰
+            </button>
+            <button class="moods__button moods__button_estresado">
+              STRESSED 😵‍💫
+            </button>
+            <button class="moods__button moods__button_cansado">
+              TIRED 🤕
+            </button>
+          </div>
+          <div class="moods__card">
+            <p class="moods__subtitle">How are you?</p>
+            <ul class="moods__list">
+              <li class="moods__list_1">Share your story with others.</li>
+              <li class="moods__list_2">
+                Read stories from other users and leave a comment.
+              </li>
+              <li class="moods__list_3">
+                It's important to know that you are not alone in this.
+              </li>
+            </ul>
+            <button class="moods__card-button">
+              <span class="moods__card-button_text">SHARE YOUR STORY!</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider__container">
+      <img class="divider" src="./images/divider.svg" alt="divider" />
+    </div>
+
+    <section class="comments">
+      <h2 class="comments__title">Some Stories 💭</h2>
+      <div class="comments__container">
+        <!-- CONTENT INJECTED BY JS -->
+        <button class="comments__button">SEE MORE STORIES →</button>
+      </div>
+    </section>
+
+    <div class="divider__container">
+      <img class="divider" src="./images/divider.svg" alt="divider" />
+    </div>
+
+    <section class="tips" id="tips">
+      <h2 class="tips__title">Let Us Recommend</h2>
+      <div class="tips__elements">
+        <article class="card card_order">
+          <div class="card__header">WORK ORDER</div>
+          <div class="card__content-box">
+            <ul>
+              <li class="card__text">
+                Ensure you have a clear schedule on paper.
+              </li>
+              <li class="card__text">
+                Identify your major distractions.
+              </li>
+              <li class="card__text">Group your tasks into blocks.</li>
+              <li class="card__text">Divide your day into several goals.</li>
+              <li>Set clear limitations.</li>
+            </ul>
+          </div>
+          <div class="card__footer">
+            People with higher and better performance in the professional context know how to manage their work time.
+          </div>
+        </article>
+
+        <article class="card card_pomodoro">
+          <div class="card__header">POMODORO TECHNIQUE</div>
+          <div class="card__content-box">
+            <div class="card__note">
+              <div class="card__note-header">
+                <img
+                  src="./images/card__note-decoration.png"
+                  alt="null"
+                  role="presentation"
+                />
+                <span class="card__note-icon">✌️</span
+                ><span class="card__note-accent">Take Note</span>
+              </div>
+              <ul class="card__note-list">
+                <li>Divide your day into tasks you want to accomplish.</li>
+                <li>Arrange this list by priorities.</li>
+                <li>Set your timer.</li>
+                <li>Take a 5-minute break.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card__footer">
+            This technique is a way to manage time, plan, and execute tasks for productivity.
+          </div>
+        </article>
+
+        <article class="card card_nutrition">
+          <div class="card__header">NUTRITION TIPS</div>
+          <div class="card__content-box">
+            <ul>
+              <li class="card__text">
+                Eat fruits, vegetables, and whole grains.
+              </li>
+              <li class="card__text">Avoid unhealthy fats.</li>
+              <li class="card__text">Consume Omega-3 fatty acids.</li>
+              <li class="card__text">
+                Learn about the risks and benefits of taking vitamins or supplements.
+              </li>
+              <li class="card__text">Maintain a healthy weight.</li>
+            </ul>
+          </div>
+          <div class="card__footer">
+            Simply put, consuming unhealthy foods like processed or fast food is very toxic to our bodies.
+          </div>
+        </article>
+
+        <article class="card card_exercise">
+          <div class="card__header">BEST EXERCISES</div>
+          <div class="card__content-box">
+            <div class="card__note">
+              <div class="card__note-header">
+                <img
+                  src="./images/card__note-decoration.png"
+                  alt="null"
+                  role="presentation"
+                />
+                <span class="card__note-icon">🦾</span
+                ><span class="card__note-accent">TOP 5</span>
+              </div>
+              <ul class="card__note-list">
+                <li>Cardio and high-intensity exercises.</li>
+                <li>Taichi for stress relief.</li>
+                <li>Boxing to burn off adrenaline.</li>
+                <li>Yoga to center your mind.</li>
+                <li>Swimming for stress relief and focus.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card__footer">
+            Whether moderate or intense, consistent exercise offers mood-boosting benefits.
+          </div>
+        </article>
+
+        <article class="card card_stress">
+          <div class="card__header">WORK STRESS</div>
+          <div class="card__content-box">
+            <img
+              src="./images/card__decoration_Stress.png"
+              alt="Decorative image of a stress-related alert"
+              class="card__decoration"
+              role="presentation"
+            />
+            <ul>
+              <li class="card__text">
+                Set boundaries. Don't push yourself to exhaustion.
+              </li>
+              <li class="card__text">You can always ask for help.</li>
+              <li class="card__text">Disconnect from work.</li>
+              <li class="card__text">Take care of your health and finances.</li>
+            </ul>
+          </div>
+          <div class="card__footer">
+            Burnout, known as occupational burnout syndrome, is the response to strong physical and emotional exhaustion.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="divider__container">
+      <img class="divider" src="./images/divider.svg" alt="divider" />
+    </div>
+
+    <section class="podcast" id="podcast">
+      <div class="podcast__container">
+        <h2 class="podcast__title">Check Out These Podcasts ♢</h2>
+        <article class="podcast__show">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/show/12Ev7yJyd1AHNDCzNzsehy?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <div class="podcast__tags-container">
+            <div class="podcast__tags">Health</div>
+            <div class="podcast__tags">Self-esteem</div>
+            <div class="podcast__tags">Knowledge</div>
+          </div>
+        </article>
+        <article class="podcast__show">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/show/1TDJJoHWEq7Nbh3yEBOJOj?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <div class="podcast__tags-container">
+            <div class="podcast__tags">Testimonials</div>
+            <div class="podcast__tags">Reflection</div>
+            <div class="podcast__tags">Behavior</div>
+          </div>
+        </article>
+        <article class="podcast__show">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/show/0sGGLIDnnijRPLef7InllD?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <div class="podcast__tags-container">
+            <div class="podcast__tags">Habits</div>
+            <div class="podcast__tags">Motivation</div>
+            <div class="podcast__tags">Optimism</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <div class="divider__container">
+      <img class="divider" src="./images/divider.svg" alt="divider" />
+    </div>
+
+    <section class="professionals" id="professionals">
+      <div class="professionals__header">
+        <h2 class="professionals__title">The Professionals</h2>
+        <button class="professionals__button">
+          <div class="professionals__whos-live">
+            <img
+              class="professionals__live-avatar"
+              src="./images/professionals__live-avatar-1.png"
+              alt=""
+            />
+            <img
+              class="professionals__live-avatar"
+              src="./images/professionals__live-avatar-2.png"
+              alt=""
+            />
+          </div>
+          LIVE NOW! ▶
+        </button>
+      </div>
+      <div class="professionals__elements">
+        <!-- CONTENT INJECTED BY JS  -->
+      </div>
+      <button class="professionals__button professionals__button_centered">
+        MEET MORE PROFESSIONALS!
+      </button>
+    </section>
+
+    <div class="divider__container">
+      <img class="divider" src="./images/divider.svg" alt="divider" />
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__top-menu">
+          <div class="footer__left-container">
+            <a href="#home"
+              ><img class="footer__logo" src="./images/logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="footer__right-container">
+            <div class="footer__column">
+              <p class="footer__column-title">About Us</p>
+              <ul>
+                <li><a class="footer__links" href="#">Who We Are</a></li>
+                <li><a class="footer__links" href="#">Contact Us</a></li>
+                <li><a class="footer__links" href="#">Advertising</a></li>
+                <li><a class="footer__links" href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <p class="footer__column-title">Focus</p>
+              <ul>
+                <li>
+                  <a class="footer__links" href="#moods">Moods</a>
+                </li>
+                <li>
+                  <a class="footer__links" href="#tips">Recommendations</a>
+                </li>
+                <li><a class="footer__links" href="#podcast">Podcasts</a></li>
+                <li>
+                  <a class="footer__links" href="#professionals"
+                    >Professionals</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom-menu">
+          <div class="footer__left-container">
+            <img
+              class="footer__socials"
+              src="./images/linkedin.svg"
+              alt="linkedin"
+            />
+            <p class="footer__links">
+              <a class="footer__links" href="#">Privacy Policy</a>
+            </p>
+            <p class="footer__links">
+              <a class="footer__links" href="#">Terms & Services</a>
+            </p>
+          </div>
+          <div class="footer__right-container">
+            <a class="footer__links" href="#">© Copyright 2023, NPC Team</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="menu">
+      <div class="menu__overlay">
+        <div class="menu__container">
+          <img class="menu__logo" src="./images/logo_light.svg" alt="logo" />
+          <button class="menu__close">
+            <img src="./images/close-icon.svg" alt="close-icon" />
+          </button>
+          <ul class="menu__social-list">
+            <li class="menu__list-title">Social</li>
+            <li class="menu__social"><a href="#">Facebook</a></li>
+            <li class="menu__social"><a href="#">Instagram</a></li>
+            <li class="menu__social"><a href="#">LinkedIn</a></li>
+          </ul>
+          <ul class="menu__nav">
+            <li class="menu__nav_item">
+              <a href="#moods">How Are You Feeling?</a>
+            </li>
+            <li class="menu__nav_item"><a href="#tips">Recommendations</a></li>
+            <li class="menu__nav_item"><a href="#podcast">Podcasts</a></li>
+            <li class="menu__nav_item">
+              <a href="#professionals">Professionals</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup">
+      <div class="popup__overlay">
+        <div class="popup__container">
+          <button class="popup__close">
+            <img src="./images/popup__close.svg" alt="close-icon" />
+          </button>
+          <h2 class="popup__title">Tell Us How You're Feeling</h2>
+          <form class="popup__form">
+            <fieldset class="popup__fieldset">
+              <label class="popup__label" for="name"
+                >What's your name? :
+              </label>
+              <input
+                class="popup__input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+              />
+            </fieldset>
+            <textarea
+              id="comment"
+              class="popup__textarea"
+              type="text"
+              placeholder="Write here..."
+            ></textarea>
+            <div class="popup__checkmark">
+              <input
+                class="popup__checkmark-input"
+                type="checkbox"
+                id="checkmark"
+                name="checkmark"
+              />
+              <label class="popup__checkmark-label" for="checkmark"
+                >I want to be Anonymous</label
+              >
+            </div>
+            <button class="popup__button">Cancel</button>
+            <button class="popup__button">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROFESSIONALS FORM POPUP -->
+
+    <div class="popup_professionals">
+      <div class="popup__overlay">
+        <div class="popup__container popup__container_professionals">
+          <button class="popup__close popup__close_professionals">
+            <img src="./images/popup__close.svg" alt="close-icon" />
+          </button>
+          <h2 class="popup__title">Let's Chat</h2>
+          <form class="popup__form popup__form_professionals">
+            <fieldset class="popup__fieldset">
+              <label class="popup__label" for="name"
+                >What's your name? :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+              />
+            </fieldset>
+            <fieldset class="popup__fieldset">
+              <label class="popup__label" for="email"
+                >How can we contact you? :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="johndoe@example.com"
+              />
+            </fieldset>
+
+            <fieldset class="popup__fieldset">
+              <label class="popup__label" for="start"
+                >Select an ideal date for you :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="datetime-local"
+                id="start"
+                name="date"
+                value="2023-04-12T19:30"
+                min="2023-04-12T19:30"
+                max="2030-06-14T00:00"
+              />
+            </fieldset>
+
+            <textarea
+              id="comment"
+              class="popup__textarea popup__textarea_professionals"
+              type="text"
+              placeholder="Let us know what you're looking for!"
+            ></textarea>
+            <div class="popup__checkmark popup__checkmark_professionals">
+              <input
+                class="popup__checkmark-input"
+                type="checkbox"
+                id="checkmark"
+                name="checkmark"
+              />
+              <label class="popup__checkmark-label" for="checkmark"
+                >I want to be Anonymous</label
+              >
+            </div>
+            <button class="popup__button popup__button_professionals">
+              Cancel
+            </button>
+            <button class="popup__button popup__button_professionals">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./pages/app.js"></script>
+    <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"4e516365622adce2c4d50f75afede5a9","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+  </body>
+</html>
